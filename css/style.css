@@ -1,0 +1,141 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+
+
+
+
+
+
+.bg-teal{
+	background-color: #058c91;
+}
+
+img{
+	border-radius: 50%;
+}
+
+
+.text-teal {
+  color: #058c91;
+}
+
+
+.fullimage{
+	background: white url(../../uitechnologies/images/image2.jpg) no-repeat scroll center;
+	height: 100vh;
+	background-size: cover;
+
+}
+.overlay{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+}
+
+.fa-play-circle{
+	border: 3px solid transparent;
+	border-radius: 50%;
+	animation: glow-icon 1s infinite linear;
+}
+
+
+@keyframes glow-icon {
+	0% , 100%{
+		transform: scale(1,1);
+	}
+	50%{
+		transform: scale(1.07,1.07);
+		box-shadow: 0 0 10px white;
+		border: 3px dotted white;
+	}
+}
+
+
+.intro-icon{
+	background-color: black;
+	color: #058c91;
+	border-radius: 50%;
+}
+
+
+.gallery-img{
+	height: 230px;
+	border-radius: 20px;
+	transition: 0.8s
+}
+.gallery-img:hover{
+	transform: scale(1.1);
+	box-shadow: 0 0 10px black;
+}
+
+.btn-outline-white{
+	color: #058c91 !important;
+	border-radius: 20px;
+	border: 1px solid #058c91 !important;
+
+}
+
+.btn-outline-white:hover{
+	color: #058c91 !important;
+	border-radius: 20px;
+	border: 1px solid #058c91 !important;
+	box-shadow: 0 0 10px #058c91;
+
+}
+
+
+.trainer-img{
+	border: 3px solid white !important;
+	box-shadow: 0 0 5px white !important;
+	margin-top: -50px;
+
+
+
+}
+
+
+.trainer-card{
+	border-radius: 10px !important;
+	background-color: #058c91;
+	transition: all 0.5s; 
+}
+
+
+
+.trainer-card:hover{
+    transform: translateY(-20px);
+    background: linear-gradient(45deg,black,darkslategrey) !important;
+    color: #058c91 !important;
+}
+
+
+
+.register-card{
+
+	
+
+	 background: linear-gradient(45deg,black,darkslategrey) !important;
+}
+
+.contact-us{
+	border-radius: 25px;
+}
+.contact-us:hover{
+	color: teal;
+}
+.close-btn{
+	background: teal !important;
+	border-radius: 25px;
+}
+
+.bg-footer{
+	background: linear-gradient(45deg,black,darkslategrey) !important;
+}
+
+
+
+
